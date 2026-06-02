@@ -1,5 +1,5 @@
 // const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8080/api';
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'http://agile-tenderness-production-7c6a.up.railway.app/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? 'https://agile-tenderness-production-7c6a.up.railway.app/api';
 
 async function request(path, options = {}) {
   const response = await fetch(`${API_BASE_URL}${path}`, {
